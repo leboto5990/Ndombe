@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:#004d40;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#00796b;
+    padding:10px;
+}
+
+nav a{
+    color:white;
+    margin:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+.container{
+    margin:20px;
+    padding:20px;
+    background:white;
+    border:1px solid #ddd;
+}
+
+.banner{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border:3px solid #00796b;
+}
+
+.blog-post{
+    border:1px solid #ccc;
+    margin:20px 0;
+    padding:15px;
+}
+
+.gallery img{
+    width:300px;
+    margin:10px;
+    border:3px solid #555;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table, th, td{
+    border:1px solid black;
+    padding:10px;
+}
+
+footer{
+    text-align:center;
+    background:#004d40;
+    color:white;
+    padding:15px;
+    margin-top:20px;
+}
